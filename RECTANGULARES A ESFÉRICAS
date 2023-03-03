@@ -1,0 +1,23 @@
+
+//RECTANGULARES A ESFÉRICAS
+
+#include <iostream>
+#define PI 3.14159
+
+using namespace std;
+int main(){
+    
+    //Definimos las variables
+    float teta=0;
+    float phy=0;
+    float r=0;
+    
+    //Ecuación es
+    phy=phy*PI/ 180;
+    teta=teta*PI/ 180;
+    
+    r=((x*x)+(y*y)+(z*z));
+    
+    cout
+    return 0;
+}
