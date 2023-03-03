@@ -1,0 +1,27 @@
+
+//ESFÉRICAS A RECTANGULARES 
+
+#include <iostream>
+#define PI 3.14159
+
+using namespace std;
+int main(){
+    //Definimos las variables
+    float teta=0;
+    float phy=0;
+    float r=0;
+    float x=0;
+    float y=0;
+    float z=0;
+    
+    //Ecuaciones
+    
+    phy=phy*PI/ 180;
+    teta=teta*PI/ 180;
+    
+    x=r*sin(phy)*cos(teta);
+    y=r*sin(phy)*sin(teta);
+    z=r*cos(phy);
+    cout<<"("<<x<<","<<y<<","<<z<<")";
+    return 0;
+}
