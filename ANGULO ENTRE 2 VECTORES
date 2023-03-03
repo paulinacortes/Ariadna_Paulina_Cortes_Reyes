@@ -1,0 +1,26 @@
+
+//ANGULO ENTRE 2 VECTORES
+
+#include <iostream>
+
+using namespace std;
+int main(){
+    float u1,u2,u3,v1,v2,v3,w, teta, mu,mv;
+    u1= 1;
+    u2= 2;
+    u3= 3;
+    v1= 4;
+    v2= 5;
+    v3= 6;
+    teta=0;
+    mu=0;
+    mv=0;
+       
+    w=((u1*v1)+(u2*v2)+(u3*v3));
+    mu=sqrt((u1*u1)+(u2*u2)+(u3*u3));
+    mv=sqrt((v1*v1)+(v2*v2)+(v3*v3));
+    teta=acos(w/mu*mv);
+
+cout<<w<<teta<<endl;
+
+}
