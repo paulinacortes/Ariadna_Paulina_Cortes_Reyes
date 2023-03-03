@@ -1,0 +1,26 @@
+
+//PUNTO MEDIO
+
+#include <iostream>
+
+using namespace std;
+float x1=0;
+float y1=0;
+float z1=0;
+float x2=0;
+float y2=0;
+float z2=0;
+float xp=0;
+float yp=0;
+float zp=0;
+
+
+int main(){
+    
+xp =(x1+x2)/2;
+yp=(y1+y2)/2;
+zp=(z1+z2)/2;
+
+cout<<"("<<xp<<","<<yp<<","<<zp<<")";
+
+}
