@@ -1,0 +1,21 @@
+
+//POLARES <——> RECTANGULARES 
+
+#include <iostream>
+
+using namespace std;
+
+float x=0;
+float y=0;
+float teta= 0;
+float r=0;
+
+
+int main() {
+
+teta= atan (y/x);
+r = sqrt ((x*x)+(y*y));
+
+
+cout<<"("<<r<<","<<teta<<")";
+}
